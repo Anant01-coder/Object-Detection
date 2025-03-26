@@ -1,0 +1,19 @@
+# Core machine learning and tensor libraries
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Image processing libraries
+Pillow>=9.0.0
+opencv-python>=4.7.0
+
+# Numerical and data handling
+numpy>=1.23.0
+
+# Progress bar for loops
+tqdm>=4.65.0
+
+# Argument parsing (standard library, but included for clarity)
+argparse>=1.1
+
+# Optional: for faster CUDA operations (if using GPU)
+# cudnn is typically bundled with PyTorch, no separate install needed
